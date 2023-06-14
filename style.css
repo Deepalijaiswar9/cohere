@@ -1,0 +1,777 @@
+/* universal===================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+/* wrapper here======================== */
+.wrapper {
+  max-width: 1365px;
+  margin: 0 auto;
+  width: 85%;
+}
+
+/* all similar style tag====================== */
+
+h2 {
+  font-size: 50px;
+}
+
+li {
+  list-style: none;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+span,
+.upperFooter span,
+.cohereBusiness a,
+.tryPlayground a,
+.tryReference a,
+.clickAboutUs a,
+.tryNowList a {
+  display: inline-block;
+}
+
+h1,
+a,
+header .header,
+nav ul,
+.tryPlayground,
+.tryReference,
+.customers,
+.customersLogo,
+.cohereBusiness,
+.companies,
+.clickAboutUs,
+.upperFooter,
+.lowerFooter,
+.lowerFooter ul,
+.tryNowList 
+{
+  display: flex;
+}
+
+
+/* header start here==================== */
+header {
+  padding: 15px 0;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: #fff;
+}
+
+header a {
+  color: #555;
+  font-size: 12px;
+  padding: 10px;
+}
+
+header nav a:hover,
+#tryNow:hover {
+  padding: 10px;
+  background-color: #444;
+}
+
+.header,
+.tryPlayground,
+.tryReference,
+.customers,
+.cohereBusiness,
+.clickAboutUs,
+.tryNowList {
+  align-items: center;
+}
+
+.header nav {
+  width: 60%;
+}
+
+nav ul {
+  overflow: auto;
+}
+
+.tryNowList,
+.signInList{
+  display: none;
+}
+
+.mobileNavbarBtn {
+  display: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.mobileNavIcon {
+  font-size: 20px;
+  color: #555;
+}
+
+.mobileNavIcon[name="close-outline"] {
+  display: none;
+}
+
+/* header end here==================== */
+
+/* main start here====================== */
+/* playground section start here======================= */
+.playground {
+  padding: 50px 0;
+  background-color: #eee;
+}
+
+.play {
+  width: 35%;
+  padding-bottom: 14px;
+}
+
+.playPara {
+  width: 75%;
+  color: #000;
+  font-weight: bold;
+  line-height: 1.4;
+  padding: 25px 0;
+}
+
+.cohereBusiness,
+.tryPlayground,
+.tryReference,
+.clickAboutUs,
+.tryNowList {
+  border-color: transparent !important;
+  background-color: transparent !important;
+}
+
+.cohereBusiness a,
+.tryPlayground a,
+.tryReference a,
+.clickAboutUs a,
+.tryNowList a {
+  padding: 14px 8px !important;
+  width: 89%;
+}
+
+.cohereBusiness a,
+.cohereBusiness input,
+.tryPlayground a,
+.tryPlayground input,
+.tryReference a,
+.tryReference input,
+.clickAboutUs a,
+.clickAboutUs input,
+.tryNowList a,
+.tryNowList input {
+  color: #fff !important;
+  background-color: #000 !important;
+  padding: 11px 8px;
+}
+
+.cohereBusiness input,
+.tryPlayground input,
+.tryReference input,
+.clickAboutUs input,
+.tryNowList input {
+  width: 12% !important;
+  border-radius: 50px 10px 10px 10px !important;
+  transition: width 2s;
+}
+
+.cohereBusiness,
+.tryPlayground,
+.contactSales,
+.tryReference,
+.apiReference,
+.clickAboutUs,
+.readThePress,
+.tryNowList,
+.signInList {
+  border: 1px solid #000;
+  border-radius: 7px !important;
+  font-size: 12px;
+  margin-bottom: 11px;
+  background-color: #fff;
+}
+
+.contactSales,
+.apiReference,
+.readThePress,
+.signInList {
+  padding: 11px 8px;
+}
+
+.cohereBusiness,
+.tryPlayground,
+.contactSales,
+.tryReference,
+.apiReference,
+.clickAboutUs,
+.readThePress,
+.tryNowList,
+.signInList {
+  width: 73% !important;
+
+}
+
+.contactSales a,
+.apiReference a,
+.readThePress a,
+.signInList a {
+  color: #555;
+}
+
+.cohereBusiness a,
+.tryPlayground a,
+.tryReference a,
+.clickAboutUs a,
+.contactSales:hover,
+.apiReference:hover,
+.readThePress:hover,
+.tryNowList a,
+.signInList:hover {
+  border-radius: 10px 10px 50px 10px !important;
+}
+
+.cohereBusiness input:hover,
+.tryPlayground input:hover,
+.tryReference input:hover,
+.clickAboutUs input:hover,
+.tryNowList input:hover {
+  width: 20% !important;
+}
+
+/* playground section end here======================= */
+
+/* our customers start end here======================= */
+.ourCustomers {
+  background-color: #000;
+  padding: 38px 0;
+}
+
+.customersLogo {
+  width: 85%;
+  justify-content: space-around;
+}
+
+/* our customers end here======================= */
+
+
+/* business start here======================= */
+.allBusiness {
+  background-color: #cccccc;
+  padding: 6% 0;
+}
+
+.business {
+  width: 63%;
+  border: 1px solid #fff;
+  border-radius: 30px;
+  padding: 35px;
+}
+
+.business h2 {
+  padding-bottom: 11px;
+}
+
+.business p {
+  font-weight: bold;
+  color: #333;
+  line-height: 1.4;
+  padding-bottom: 77px;
+}
+
+.cohereBusiness {
+  width: 43.5% !important;
+}
+
+.cohereBusiness a,
+.cohereBusiness span {
+  padding: 12px 8px !important;
+}
+
+/* business end here======================= */
+
+/* companies start here================================= */
+.allCompanies {
+  padding: 145px 0 65px;
+}
+
+.allCompanies h2 {
+  width: 55%;
+  padding-bottom: 75px;
+}
+
+.companies,
+.customersLogo,
+.upperFooter,
+.lowerFooter {
+  flex-wrap: wrap;
+}
+
+.companies li {
+  width: 30%;
+  margin-bottom: 50px;
+}
+
+.companies span {
+  padding-bottom: 12px;
+  border-bottom: 1px solid #000;
+  width: 70%;
+}
+
+.companies p {
+  padding: 20px 0;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+.companies a {
+  font-size: 12px;
+  width: 45%;
+  margin-bottom: 20px;
+}
+
+.companies a::after {
+  content: "\f178";
+  font-family: "fontAwesome";
+  text-indent: 0;
+  padding-left: 14px;
+  transition: 2s;
+}
+
+.companies a:hover::after {
+  padding-left: 5px;
+}
+
+.companies img {
+  width: 100%;
+}
+
+/* companies start here================================= */
+
+
+/* api references start here========================== */
+.allReferences {
+  background-color: #000;
+  color: #fff;
+  padding: 75px 0;
+}
+
+.references {
+  width: 40%;
+}
+
+.references p {
+  padding: 15px 0 100px 0 !important;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.5;
+  width: 80%;
+}
+
+.tryReference,
+.apiReference,
+.signInList {
+  width: 64% !important;
+}
+
+.tryReference a,
+.tryReference input {
+  background-color: #fff !important;
+  color: #555 !important;
+}
+
+.apiReference,
+.apiReference a{
+  color: #fff !important;
+  background-color: #555 !important;
+}
+
+/* api references end here========================== */
+
+/* <!-- About Cohere start here=================================== --> */
+.allAboutCohere {
+  background-color: #ccc;
+  padding: 5.5% 0;
+}
+
+.aboutCohere {
+  width: 65%;
+  border: 1px solid #fff;
+  border-radius: 30px;
+  padding: 34px;
+}
+
+.aboutCohere h2 {
+  padding-top: 20px;
+}
+
+.aboutCohere p {
+  font-size: 15px;
+  padding: 8px 0 45px;
+  line-height: 1.5;
+}
+
+.clickAboutUs,
+.readThePress {
+  width: 47% !important;
+}
+
+.aboutCohere span {
+  color: #000 !important;
+}
+
+/* <!-- About Cohere start here=================================== --> */
+
+/* main end here====================== */
+
+
+/* footer start here=================== */
+footer {
+  background-color: #222;
+  padding: 73px 0;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+
+footer input:hover {
+  background-color: #999;
+  border-radius: 10px;
+}
+
+
+
+footer a,
+footer input,
+.playPara,
+.business p {
+  font-size: 15px;
+}
+
+footer span,
+.customers span,
+.companies span,
+.aboutCohere span {
+  font-size: 11px;
+  color: #999;
+}
+
+footer form {
+  padding: 26px 0;
+}
+
+footer input {
+  padding: 10px;
+  background-color: #555;
+  border: transparent;
+  border-radius: 10px;
+}
+
+footer #emailId {
+  padding-right: 30px;
+}
+
+header nav a:hover,
+#tryNow:hover,
+footer,
+footer a,
+footer input {
+  color: #ccc;
+}
+
+.upperFooter {
+  padding: 70px 0;
+  border-bottom: 1px solid #333;
+  margin-bottom: 29px;
+}
+
+.upperFooter li {
+  padding: 8px 0;
+}
+
+.upperFooter span {
+  padding-bottom: 23px;
+}
+
+.upperFooter,
+.lowerFooter,
+.lowerFooter ul,
+header .header,
+.header ul,
+.customers,
+.companies {
+  justify-content: space-between;
+}
+
+.lowerFooter ul {
+  width: 27.3%;
+}
+
+/* footer end here=================== */
+
+
+
+
+
+
+
+/* responsive start here========================== */
+@media only screen and (max-width: 1024px) {
+
+  .header nav,
+  .play,
+  .business,
+  .allCompanies h2,
+  .references,
+  .aboutCohere {
+    width: 70%;
+  }
+
+  .customers {
+    display: block;
+    text-align: center;
+  }
+
+  .customersLogo {
+    width: 100%;
+  }
+
+  .customersLogo li {
+    padding-top: 20px;
+  }
+
+  .cohereBusiness,
+  .clickAboutUs,
+  .readThePress {
+    width: 76% !important;
+  }
+
+  .tryReference,
+  .apiReference,
+  .signInList {
+    width: 73% !important;
+  }
+
+  .companies {
+    justify-content: space-evenly;
+  }
+
+  .companies li {
+    width: 40%;
+  }
+
+  .companies a {
+    width: 50%;
+  }
+
+  .lowerFooter ul {
+    width: 40%;
+  }
+}
+
+/* @media only screen and (max-width: 995px) {
+
+} */
+
+@media only screen and (max-width: 885px) {
+  .header {
+    position: relative;
+  }
+  .tryNowList,
+  .signInList,
+  nav {
+    display: flex;
+  }
+
+  nav {
+    position: absolute;
+    width: 50% !important;
+    height: 100vh !important;
+    top: 0;
+    right: 0;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  nav li{
+    width: 72%;
+    margin: 5px 0;
+  }
+  nav a{
+    justify-content: center !important;
+  }
+
+  .active nav {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+
+  .mobileNavbarBtn,
+  .active .mobileNavbarBtn .mobileNavIcon[name="close-outline"] {
+    display: block;
+  }
+
+  #tryNow,
+  .active .mobileNavbarBtn .mobileNavIcon[name="menu-outline"] {
+    display: none;
+  }
+
+  .play,
+  .business,
+  .allCompanies h2,
+  .references,
+  .aboutCohere {
+    width: 100%;
+  }
+
+  .signInList,
+.signInList a {
+  color: #fff !important;
+  background-color: #000 !important;
+  padding: 0 !important;
+}
+.signInList a {
+  padding: 10px !important;
+}
+
+}
+
+@media only screen and (max-width: 768px) {
+
+  .header nav {
+    width: 70% !important;
+  }
+
+  .upperFooter {
+    justify-content: space-evenly;
+    text-align: center;
+  }
+
+  .upperFooter a {
+    justify-content: center;
+  }
+
+  .upperFooter ul {
+    padding: 20px 30px;
+  }
+
+  .lowerFooter {
+    display: block;
+  }
+
+  .lowerFooter ul {
+    width: 100%;
+    justify-content: center;
+    padding-top: 20px;
+  }
+
+  .lowerFooter li {
+    padding: 0 20px;
+  }
+}
+
+@media only screen and (max-width: 667px) {
+  .companies {
+    display: block;
+    text-align: -webkit-center;
+  }
+
+  .companies li {
+    width: 70%;
+  }
+
+  .companies a {
+    width: 70%;
+    justify-content: center;
+  }
+}
+
+/* @media only screen and (max-width: 580px) {} */
+
+
+@media only screen and (max-width: 480px) {
+  h2{
+    font-size: 40px;
+  }
+  .header nav {
+    width: 100% !important;
+  }
+
+  .play,
+  .customers,
+  .business,
+  .references,
+  .aboutCohere {
+    text-align: -webkit-center;
+  }
+
+  .allCompanies,
+  .allAboutCohere,
+  .allBusiness,
+  .allReferences,
+  .playground {
+    text-align: center;
+  }
+
+  .lowerFooter ul {
+    display: block;
+  }
+
+  .lowerFooter li {
+    padding: 10px;
+  }
+
+  .lowerFooter a {
+    justify-content: center;
+
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  h2{
+    font-size: 30px;
+  }
+  
+.cohereBusiness input,
+.tryPlayground input, .tryReference input,
+  .clickAboutUs input,
+  .tryNowList input {
+    width: 50% !important;}
+
+  .tryPlayground,
+  .contactSales,
+  .cohereBusiness,
+  .tryReference,
+  .apiReference,
+  .clickAboutUs,
+  .readThePress,
+  .tryNowList,
+  .signInList {
+    width: 100% !important;
+  }
+
+  footer #emailId {
+    padding-right: 0;
+}
+}
+
+/* responsive end here========================== */
