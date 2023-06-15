@@ -67,6 +67,11 @@ header {
   background-color: #fff;
 }
 
+#logo{
+  width: 90px;
+  height: 20px;
+}
+
 header a {
   color: #555;
   font-size: 12px;
@@ -123,7 +128,9 @@ nav ul {
 /* playground section start here======================= */
 .playground {
   padding: 50px 0;
-  background-color: #eee;
+  background-image:linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("img/banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .play {
@@ -256,6 +263,11 @@ nav ul {
 .customersLogo {
   width: 85%;
   justify-content: space-around;
+}
+
+.customersLogo img{
+  width: 100px;
+  height: 30px;
 }
 
 /* our customers end here======================= */
@@ -481,7 +493,7 @@ footer #emailId {
 }
 
 header nav a:hover,
-#tryNow:hover,
+#tryNow:hover{color: #fff;}
 footer,
 footer a,
 footer input {
