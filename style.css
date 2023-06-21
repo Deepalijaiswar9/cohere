@@ -16,7 +16,7 @@
 /* all similar style tag====================== */
 
 h2 {
-  font-size: 50px;
+  font-size: 70px;
 }
 
 li {
@@ -65,6 +65,11 @@ header {
   top: 0;
   z-index: 1;
   background-color: #fff;
+}
+
+#logo{
+  width: 90px;
+  height: 20px;
 }
 
 header a {
@@ -123,11 +128,13 @@ nav ul {
 /* playground section start here======================= */
 .playground {
   padding: 50px 0;
-  background-color: #eee;
+  background-image:linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("img/banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .play {
-  width: 35%;
+  width: 50%;
   padding-bottom: 14px;
 }
 
@@ -258,17 +265,28 @@ nav ul {
   justify-content: space-around;
 }
 
+.customersLogo img{
+  width: 100px;
+  height: 30px;
+}
+
+#helviaLogo{
+  height: 20px !important;
+}
+
 /* our customers end here======================= */
 
 
 /* business start here======================= */
 .allBusiness {
-  background-color: #cccccc;
+  background-image:linear-gradient(rgba(182, 239, 240, 0.5), rgba(205, 158, 203, 0.5)), url("img/background_img.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: 6% 0;
 }
 
 .business {
-  width: 63%;
+  width: 70%;
   border: 1px solid #fff;
   border-radius: 30px;
   padding: 35px;
@@ -351,6 +369,7 @@ nav ul {
 
 .companies img {
   width: 100%;
+  height: 430px;
 }
 
 /* companies start here================================= */
@@ -397,7 +416,9 @@ nav ul {
 
 /* <!-- About Cohere start here=================================== --> */
 .allAboutCohere {
-  background-color: #ccc;
+    background-image:linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("img/background_img1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
   padding: 5.5% 0;
 }
 
@@ -481,7 +502,7 @@ footer #emailId {
 }
 
 header nav a:hover,
-#tryNow:hover,
+#tryNow:hover{color: #fff;}
 footer,
 footer a,
 footer input {
@@ -573,6 +594,10 @@ header .header,
     width: 50%;
   }
 
+  .companies img {
+    width: 100%;
+    height: 350px;
+  }
   .lowerFooter ul {
     width: 40%;
   }
@@ -660,6 +685,9 @@ header .header,
   .header nav {
     width: 70% !important;
   }
+  .companies img {
+    height: 250px;
+  }
 
   .upperFooter {
     justify-content: space-evenly;
@@ -703,6 +731,9 @@ header .header,
     width: 70%;
     justify-content: center;
   }
+  .companies img {
+    height: 450px;
+  }
 }
 
 /* @media only screen and (max-width: 580px) {} */
@@ -714,6 +745,10 @@ header .header,
   }
   .header nav {
     width: 100% !important;
+  }
+
+  .companies img {
+    height: 300px;
   }
 
   .play,
@@ -749,6 +784,10 @@ header .header,
 @media only screen and (max-width: 320px) {
   h2{
     font-size: 30px;
+  }
+
+  .companies img {
+    height: 200px;
   }
   
 .cohereBusiness input,
